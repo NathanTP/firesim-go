@@ -1,0 +1,9 @@
+{
+  "name" : "golang",
+  "workdir" : "firesim-go",
+  "base" : "fedora-base.json",
+  "files" : [ ["go-linux-riscv64-bootstrap.tbz", "/root/"], ["hello.go", "/root/"] ],
+  "host-init" : "host-init.sh",
+  "guest-init" : "guest-init.sh"
+}
+  

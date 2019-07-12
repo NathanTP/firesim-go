@@ -1,0 +1,3 @@
+[submodule "riscv-go"]
+	path = riscv-go
+	url = https://github.com/4a6f656c/riscv-go
